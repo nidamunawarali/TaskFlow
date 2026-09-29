@@ -43,9 +43,9 @@ TaskFlow/
 │   └── style.css
 │
 ├── js/
-
-##  Author
-Nida Munawar Ali
 │   └── script.js
-│
+
+## Author
+Nida Munawar Ali
+##│
 └── index.html
