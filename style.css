@@ -1,0 +1,232 @@
+body {
+    font-family: "Spectral", serif;
+    background-color: #f8f9fa;
+    color: #1f2937;
+}
+
+/* Navabr */
+
+.navbar {
+    background-color: #ffffff !important;
+    padding: 12px 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 9px;
+    color: #172033 !important;
+}
+
+.nav-link {
+    font-size: 17px;
+    margin-left: 15px;
+    color: #667085 !important;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    color: #1677ff !important;
+    font-weight: 600;
+}
+
+/* Hero / Jumbotron */
+
+.jumbotron {
+    background: linear-gradient(135deg, #e4f0ff, #eef6ff);
+    padding: 60px 44px;
+    margin-bottom: 40px;
+}
+
+.jumbotron h1 {
+    color: #172033;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.jumbotron .lead {
+    color: #4a4c50;
+    font-size: 18px;
+    margin-bottom: 24px;
+
+}
+
+.jumbotron .btn {
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+.jumbotron .btn:hover {
+    background-color: rgb(97, 97, 220);
+}
+
+/* Card */
+
+.totalTasks {
+    border-radius: 12px;
+    border: 2px solid #aebac8;
+    background-color: #e4f0ff;
+
+}
+
+.totalTasks:hover {
+    transform: translateY(-3px);
+    background-color: #b4d3f8;
+}
+
+.completedTasks {
+    border-radius: 12px;
+    border: 2px solid #66f659;
+    background-color: #aefac6;
+
+}
+
+.completedTasks:hover {
+    transform: translateY(-3px);
+    background-color: #76f799;
+}
+
+.pendingTasks {
+    border-radius: 12px;
+    border: 2px solid rgb(234, 234, 33);
+    background-color: #f6fd92;
+
+}
+
+.pendingTasks:hover {
+    transform: translateY(-3px);
+    background-color: yellow;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.card h5 {
+    font-weight: 600;
+}
+
+.card p {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+/* My Task section */
+
+.myTaskSection h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px !important;
+}
+
+#searchTask {
+    width: 220px;
+    margin-bottom: 25px !important;
+    border-radius: 6px;
+}
+
+#priorityFilter {
+    width: 160px;
+    margin-bottom: 25px !important;
+    border-radius: 6px;
+}
+
+/* Task Card */
+
+#taskList .card {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+    margin-bottom: 20px !important;
+}
+
+#taskList .card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    background-color: rgb(222, 221, 221);
+    transform: translateY(-3px);
+}
+
+#taskList .card-body {
+    padding: 25px;
+    margin-left: 25px;
+}
+
+#taskList .card-title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#taskList .card-text,
+.date,
+.priority {
+    font-size: 17px !important;
+    font-weight: 500 !important;
+    color: #525762 !important;
+    margin-bottom: 15px !important;
+}
+
+/* Task Buttons */
+
+.complete-btn,
+.edit-btn,
+.delete-btn {
+    border-radius: 5px;
+    padding: 8px 14px;
+    font-size: 16px;
+}
+
+/* Modal */
+
+.modal-content {
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.modal-title {
+    font-weight: 700;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+/* Footer */
+
+footer p {
+    color: #cbd5e1;
+}
+
+/* Completed Task */
+.completed-task {
+    text-decoration: line-through;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 768px) {
+
+    .jumbotron {
+        padding: 40px 25px;
+    }
+
+    .jumbotron h1 {
+        font-size: 30px;
+    }
+
+    .container.mt-5 .d-flex {
+        flex-direction: column;
+    }
+
+    #searchTask {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #priorityFilter {
+        width: 100%;
+    }
+}
