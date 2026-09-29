@@ -229,4 +229,12 @@ footer p {
     #priorityFilter {
         width: 100%;
     }
+    
+    .complete-btn,
+    .edit-btn,
+    .delete-btn {
+        border-radius: 5px;
+        padding: 4px 8px;
+        font-size: 12px;
+    }
 }
