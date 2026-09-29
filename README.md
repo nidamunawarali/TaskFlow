@@ -47,9 +47,6 @@ TaskFlow/
 │
 └── index.html
 
-## Author
-
-Nida Munawar Ali
 
 
 
